@@ -19,19 +19,6 @@ BPE是一种常用的子词分词方法，广泛应用于现代NLP模型（如BE
 - 无需额外依赖库
 
 
-## 使用方法
-
-### 1. 训练BPE模型
-运行以下命令，从文本文件中训练BPE词表：
-```bash
-python tokenizer.py --train --input input.txt --num_merges 1000 --output vocab.json
-```
-- `--input`：输入文本文件路径。
-- `--num_merges`：指定合并次数（即词表大小）。
-- `--output`：保存词表和合并规则的文件。
-
-
-
 ## 贡献
 欢迎提交Issue或Pull Request！如果有改进建议或发现bug，请随时联系。
 
